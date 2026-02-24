@@ -11,8 +11,8 @@
   "author": "YBK1505",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.0.0",
+    "puppeteer": "^24.0.0",
     "dotenv": "^16.3.1",
-    "json2csv": "^6.0.0-alpha.2"
+    "@json2csv/plainjs": "^7.0.6"
   }
 }
