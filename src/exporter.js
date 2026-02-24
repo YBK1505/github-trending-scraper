@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { Parser } = require('json2csv');
+const { Parser } = require('@json2csv/plainjs');
 
 const OUTPUT_DIR = path.join(process.cwd(), 'output');
 
