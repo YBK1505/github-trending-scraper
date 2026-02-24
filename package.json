@@ -1,0 +1,18 @@
+{
+  "name": "github-trending-scraper",
+  "version": "1.0.0",
+  "description": "Scrape GitHub trending repos and export to CSV/JSON using Puppeteer",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js",
+    "dev": "node --watch src/scraper.js"
+  },
+  "keywords": ["puppeteer", "scraper", "github", "trending", "csv", "json", "node"],
+  "author": "YBK1505",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "dotenv": "^16.3.1",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
